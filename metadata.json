@@ -1,0 +1,6 @@
+{
+  "name": "Eve's Beauty Salon",
+  "description": "Luxurious, elegant website for Eve's Beauty Salon in Jalalpur Jattan with online booking, service menu, photo gallery, admin dashboard, and beauty tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

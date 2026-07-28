@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+:root {
+  --color-soft-pink: #F8C8DC;
+  --color-rose-gold: #B76E79;
+  --color-gold-accent: #D4AF37;
+  --color-light-beige: #FFF8F5;
+  --color-deep-rose: #5A2D3C;
+}
+
+/* Custom Glassmorphism Cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(248, 200, 220, 0.3);
+}
+
+.glass-card-dark {
+  background: rgba(90, 45, 60, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* Luxury Glow Effects */
+.rose-gold-gradient {
+  background: linear-gradient(135deg, #B76E79 0%, #D4AF37 50%, #5A2D3C 100%);
+}
+
+.pink-soft-gradient {
+  background: linear-gradient(180deg, #FFF8F5 0%, #F8C8DC 100%);
+}
+
+.gold-border {
+  border-image: linear-gradient(to right, #B76E79, #D4AF37, #B76E79) 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #B76E79;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5A2D3C;
+}
